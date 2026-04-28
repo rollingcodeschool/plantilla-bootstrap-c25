@@ -1,3 +1,13 @@
 .bg-navbar{
     background-color: rgb(56, 202, 80);
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
