@@ -18,3 +18,12 @@ main{
 .flex-2{
     flex: 2;
 }
+
+.btn-pink{
+    background-color: pink;
+    color: black;
+
+    &:hover{
+         background-color: rgb(206, 71, 94);
+    }
+}
